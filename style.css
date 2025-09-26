@@ -1,0 +1,66 @@
+body{
+     background-image: url("/images/2.jpg") ;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+}
+.outer{
+    margin: 120px auto;
+    border-radius: 15px;
+    height: 480px;
+    width: 350px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    box-shadow: 7px 14px 14px;
+}
+.text{
+    height: 60px;
+    width: 210px;
+    margin: 20px 10px 20px 10px ;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.btn{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      margin: 20px;
+      font-size: larger;
+      background-image: url("images/search.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      display: flex;
+      float: right;
+      align-items: center;
+      cursor: pointer;
+}
+
+.weather{
+    height: 170px;
+    width: 350px;
+    margin-top: 0px;
+    display: none;;
+}
+.icon{
+    display: block;
+    margin: 0px auto;
+    width: 170px;
+}
+.temp{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 0;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.city{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
